@@ -12,7 +12,6 @@
 |       |                      |
 |       |                      |
 
-
 |   GET    |     Popis       |
 |   ---    |           ---           |
 |  Zadání adresy |      načte restaurace podle doručovací adresy     |
@@ -20,11 +19,10 @@
 |   Filtr výsledků    |        načte restaurace podle zadaných hodnot         |
 | Doporučené restaurace | Načtení doporučených restaurací podle zadané adresy |
 | Doporučené restaurace | Načtení doporučených restaurací podle uživatele |
-|       |                    |
+|   Načtení hodnocení dané restaurace    |                    |
+|    Načtení informací o uživateli   |                      |
 |       |                      |
-
-
-
+|       |                      |
 
 |   DELETE     |         Popis             |
 |   ---    |           ---           |
@@ -32,11 +30,13 @@
 |   Vymazat uživatele    |                      |
 |       |                      |
 
-
-
-
 |   PUT    |          Popis            |
 |   ---    |           ---           |
 |   Změnit data uživatele    |                      |
 |       |                      |
 |       |                      |
+
+| CLASSES | 
+|---|
+
+| Košík |                      |
