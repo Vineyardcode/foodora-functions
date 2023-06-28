@@ -1,3 +1,6 @@
+| API CALLS | 
+|---|
+
 | POST | Popis |
 |   ---    |           ---           |
 | Registrace | Zaregistruje uzivatele  |
