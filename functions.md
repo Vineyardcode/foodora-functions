@@ -6,7 +6,8 @@
 | Přidání restaurace do oblíbených |   |
 | Uložení adresy doručovací adresy |   |
 |   Uložení minulých objednávek    |                      |
-
+|       |                      |
+|       |                      |
 
 
 |   GET    |     Popis       |
@@ -18,12 +19,7 @@
 | Doporučené restaurace | Načtení doporučených restaurací podle uživatele |
 |       |                    |
 |       |                      |
-|       |                      |
-|       |                      |
-|       |                      |
-|       |                      |
-|       |                      |
-|       |                      |
+
 
 
 
@@ -37,5 +33,7 @@
 
 
 |   PUT    |          Popis            |
-|   Změnit data uživatele    |                      |
 |   ---    |           ---           |
+|   Změnit data uživatele    |                      |
+|       |                      |
+|       |                      |
