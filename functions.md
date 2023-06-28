@@ -5,7 +5,7 @@
 | Přidání restaurace do oblíbených |   |
 | Uložení adresy doručovací adresy |   |
 |   Uložení minulých objednávek    |                      |
-|       |                      |
+|   ---    |           ---           |
 
 
 |   GET    |     Popis       |
@@ -22,17 +22,17 @@
 |       |                      |
 |       |                      |
 |       |                      |
-|       |                      |
+|    ---   |               ---       |
 
 
 |   DELETE     |         Popis             |
 |   Vymazat restauraci z oblíbených    |                      |
 |   Vymazat uživatele    |                      |
 |       |                      |
-|       |                      |
+|   ---    |           ---           |
 
 
 
 |   PUT    |          Popis            |
 |   Změnit data uživatele    |                      |
-|       |                      |
+|   ---    |           ---           |
