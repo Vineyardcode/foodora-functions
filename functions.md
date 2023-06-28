@@ -11,6 +11,7 @@
 |   Uložení minulých objednávek    |                      |
 |       |                      |
 |       |                      |
+|---|
 
 |   GET    |     Popis       |
 |   ---    |           ---           |
