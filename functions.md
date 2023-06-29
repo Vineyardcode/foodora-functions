@@ -9,21 +9,29 @@
 | Přidání restaurace nebo obchodu do oblíbených |   |
 | Uložení doručovací adresy |   |
 | Uložení minulých objednávek |                      |
-|       |                      |
-|       |                      |
+|   Uložení jídel dané restaurace  |                      |
+|  Ukládání hracích karet     |                      |
+|  Ukládání odznaků     |          |
+|   Uložení poznámky pro restauraci    |          |
+|       |          |
+
 
 
 |   GET    |     Popis       |
 |   ---    |           ---           |
-|  Zadání adresy |      načte restaurace podle doručovací adresy     |
-|  Změna jazyka    |                      |
+|  Načtení doručovací adresy |          |
+|  Změna jazyka  |                      |
 |   Filtr výsledků    |        načte restaurace podle zadaných hodnot         |
 | Načtení doporučených restaurací nebo obchodů | Načtení doporučení na míru uživateli |
 |   Načtení hodnocení dané restaurace    |                    |
 |   Načtení informací o uživateli   |                      |
 |    Načtení slev   |                      |
 |   Načtení náhodných restaurací či obchodů v sekci   |     |
-|   Načtení dat uživatele    |                      |                 
+|   Načtení dat uživatele    |                      |      
+|   Načtení jídel dané restaurace    |                      |    
+|  Načtení hracích karet     |                      |
+|  Načtení odznaků     |          |  
+|   Načtení poznámky od zákazníka    |          |     
 |       |                      |
 
 |   DELETE     |         Popis             |
@@ -36,7 +44,8 @@
 |   PUT    |          Popis            |
 |   ---    |           ---           |
 |   Změnit data uživatele    |                      |
-|    Upravit doručovací adresu   |                      |
+|   Upravit doručovací adresu   |                      |
+|   Zeměna objednávky    |                      |
 |       |                      |
 
 | CLASSES | 
@@ -44,11 +53,11 @@
 
 | Košík |                      |
 |  ---  |         ---          |
-|       |                      |
+|   Modal |                      |
 
 | OBJECTS | 
 |---|
 
 | Položka košíku ||
 |  ---  |         ---          |
-|       |                      |
+|   Modal pro jednotlivé jídlo či zboží    |                      |
