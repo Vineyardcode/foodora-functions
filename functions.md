@@ -51,13 +51,15 @@
 | CLASSES | 
 |---|
 
-| Košík |                      |
+
 |  ---  |         ---          |
+| Košík |                      |
 |   Modal |                      |
 
 | OBJECTS | 
 |---|
 
-| Položka košíku ||
+
 |  ---  |         ---          |
+| Položka košíku |     |
 |   Modal pro jednotlivé jídlo či zboží    |                      |
