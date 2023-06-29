@@ -13,6 +13,7 @@
 |  Ukládání hracích karet     |                      |
 |  Ukládání odznaků     |          |
 |   Uložení poznámky pro restauraci    |          |
+|   Uložení zprávy o technickém problému    |          |
 |       |          |
 
 
@@ -31,7 +32,8 @@
 |   Načtení jídel dané restaurace    |                      |    
 |  Načtení hracích karet     |                      |
 |  Načtení odznaků     |          |  
-|   Načtení poznámky od zákazníka    |          |     
+|   Načtení poznámky od zákazníka    |          |  
+|   Načtení restaurací nebo obchodů podle doručení či vyzvednutí  |                      |
 |       |                      |
 
 |   DELETE     |         Popis             |
