@@ -5,10 +5,10 @@
 |   ---    |           ---           |
 | Registrace | Zaregistruje uzivatele  |
 | Login | Přihlášení uživatele  |
-| Hodnocení restaurace |   |
-| Přidání restaurace do oblíbených |   |
+| Hodnocení restaurace nebo obchodu |   |
+| Přidání restaurace nebo obchodu do oblíbených |   |
 | Uložení doručovací adresy |   |
-|   Uložení minulých objednávek    |                      |
+| Uložení minulých objednávek |                      |
 |       |                      |
 |       |                      |
 
@@ -21,31 +21,34 @@
 | Načtení doporučených restaurací nebo obchodů | Načtení doporučení na míru uživateli |
 |   Načtení hodnocení dané restaurace    |                    |
 |   Načtení informací o uživateli   |                      |
-|       |                      |
+|    Načtení slev   |                      |
+|   Načtení náhodných restaurací či obchodů v sekci   |     |
+|   Načtení dat uživatele    |                      |                 
 |       |                      |
 
 |   DELETE     |         Popis             |
 |   ---    |           ---           |
 |   Vymazat restauraci z oblíbených    |                      |
 |   Vymazat uživatele    |                      |
+|   Vymazat adresu    |                      |
 |       |                      |
 
 |   PUT    |          Popis            |
 |   ---    |           ---           |
 |   Změnit data uživatele    |                      |
-|       |                      |
+|    Upravit doručovací adresu   |                      |
 |       |                      |
 
 | CLASSES | 
 |---|
 
 | Košík |                      |
-|   ---    |           ---           |
+|  ---  |         ---          |
 |       |                      |
 
 | OBJECTS | 
 |---|
 
 | Položka košíku ||
-|   ---    |           ---           |
+|  ---  |         ---          |
 |       |                      |
