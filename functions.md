@@ -48,18 +48,18 @@
 |   Zeměna objednávky    |                      |
 |       |                      |
 
-| CLASSES | 
-|---|
 
 
+
+| CLASSES | |
 |  ---  |         ---          |
 | Košík |                      |
 |   Modal |                      |
 
-| OBJECTS | 
-|---|
 
 
+
+| OBJECTS | |
 |  ---  |         ---          |
 | Položka košíku |     |
 |   Modal pro jednotlivé jídlo či zboží    |                      |
