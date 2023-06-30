@@ -104,24 +104,60 @@ classDiagram
         - celková cena
     }
 
+    class Doručovatel {
+        - ID doručovatele
+        - jméno
+        - kontaktní informace
+        - dostupnost
+    }
+
+    class Platba {
+        - ID platby
+        - platební metoda
+        - stav transakce
+        - celková částka
+    }
+
+    class Hodnocení {
+        - ID hodnocení
+        - ID uživatele
+        - hodnocení
+        - komentáře
+        - datum
+    }
+
+    class Akce {
+        - ID akce
+        - popis
+        - platnost
+        - procentuální sleva
+    }
+
     Uživatel --|> Objednávka
     Objednávka "1" *-- "*" PoložkaMenu
     Restaurace "1" *-- "*" PoložkaMenu
     Uživatel "0..*" --> "0..*" Restaurace
+    Objednávka -- Doručovatel
+    Uživatel --|> Platba
+    Uživatel --|> Hodnocení
+    Restaurace -- Akce
 
     class Uživatel {
-        + registrovat()
+        + registrace()
+        + login()
         + vyhledatRestaurace()
         + přidatDoKošíku()
         + provéstObjednávku()
         + sledovatStavObjednávky()
+        + zrušitObjednávku()
+        + přidatHodnocení()
     }
 
     class Restaurace {
         + přijmoutObjednávku()
+        + spravovatAkce()
     }
 
     class Doručovatel {
-        + vyzvednoutObjednávku()
+        + aktualizovatStavDoručení()
     }
-
