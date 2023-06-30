@@ -22,7 +22,7 @@
 |   ---    |           ---           |
 | Načtení doručovací adresy | |
 | Změna jazyka | |
-| Filtr výsledků | Načte restaurace podle zadaných hodnot |
+| Filtr výsledků | Načte restaurace či obchody podle zadaných hodnot |
 | Načtení doporučených restaurací nebo obchodů | Načtení doporučení na míru uživateli |
 | Načtení hodnocení dané restaurace | |
 | Načtení informací o uživateli | |
@@ -67,14 +67,6 @@
 | Odznak | |
 | Poznámka | |
 | Modální okno | |
-
-
-
-
-| OBJECTS | |
-|  ---  |         ---          |
-| Položka košíku |     |
-|   Modal pro jednotlivé jídlo či zboží    |                      |
 
 
 | DOMÉNOVÝ MODEL | |
@@ -144,9 +136,9 @@ classDiagram
     }
 
     Uživatel --|> Objednávka
-    Objednávka "one" *-- "many" PoložkaMenu
-    Restaurace "one" *-- "many" PoložkaMenu
-    Uživatel "many*" --> "many*" Restaurace
+    Objednávka "1" *-- "many" PoložkaMenu
+    Restaurace "1" *-- "many" PoložkaMenu
+    Uživatel "many" --> "many" Restaurace
     Objednávka -- Doručovatel
     Uživatel --|> Platba
     Uživatel --|> Hodnocení
