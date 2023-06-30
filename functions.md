@@ -65,3 +65,63 @@
 |  ---  |         ---          |
 | Položka košíku |     |
 |   Modal pro jednotlivé jídlo či zboží    |                      |
+
+
+| DOMÉNOVÝ MODEL | |
+|  ---  |         ---          |
+
+```mermaid
+classDiagram
+    class Uživatel {
+        - ID uživatele
+        - jméno
+        - kontaktní informace
+        - adresa
+    }
+
+    class Restaurace {
+        - ID restaurace
+        - název
+        - typ kuchyně
+        - umístění
+        - kontaktní informace
+    }
+
+    class PoložkaMenu {
+        - ID položky
+        - název
+        - popis
+        - cena
+        - dietní informace
+    }
+
+    class Objednávka {
+        - ID objednávky
+        - ID uživatele
+        - ID restaurace
+        - dodací adresa
+        - stav objednávky
+        - celková cena
+    }
+
+    Uživatel --|> Objednávka
+    Objednávka "1" *-- "*" PoložkaMenu
+    Restaurace "1" *-- "*" PoložkaMenu
+    Uživatel "0..*" --> "0..*" Restaurace
+
+    class Uživatel {
+        + registrovat()
+        + vyhledatRestaurace()
+        + přidatDoKošíku()
+        + provéstObjednávku()
+        + sledovatStavObjednávky()
+    }
+
+    class Restaurace {
+        + přijmoutObjednávku()
+    }
+
+    class Doručovatel {
+        + vyzvednoutObjednávku()
+    }
+
