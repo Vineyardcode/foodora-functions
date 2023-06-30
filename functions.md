@@ -1,6 +1,8 @@
+| BACKEND | Popis |
+|---|---|
+
 | API CALLS | 
 |---|
-
 
 | POST | Popis |
 |   ---    |           ---           |
@@ -67,6 +69,25 @@
 | Odznak | |
 | Poznámka | |
 | Modální okno | |
+
+
+| FRONTEND | Popis |
+|-------------------------|-------|
+| Registrace uživatele    | Umožňuje uživatelům vytvořit nový účet a poskytnout potřebné informace, jako je jméno, e-mail a heslo. |
+| Přihlášení uživatele    | Umožňuje uživatelům přihlásit se do svého účtu pomocí přihlašovacích údajů. |
+| Vyhledávání restaurací  | Poskytuje funkci vyhledávání, která umožňuje uživatelům najít restaurace na základě různých kritérií, jako je poloha, kuchyně nebo název restaurace. |
+| Prohlížení menu         | Zobrazuje restaurační menu s kategoriemi a položkami, které umožňují uživatelům procházet dostupné možnosti jídla. |
+| Objednávání jídla       | Umožňuje uživatelům vybrat položky z menu, určit množství, přidat speciální instrukce a zadat objednávky. |
+| Správa nákupního košíku | Umožňuje uživatelům zobrazit a spravovat svůj nákupní košík, včetně přidání nebo odebrání položek, úpravy množství a výpočtu celkové ceny objednávky. |
+| Proces objednávky       | Poskytuje plynulý a intuitivní proces objednávání, který umožňuje uživatelům zkontrolovat své objednávky, vybrat možnosti doručení nebo vyzvednutí, zadat doručovací adresy a vybrat platební metody. |
+| Sledování objednávky    | Zobrazuje aktualizace stavu provedených objednávek v reálném čase, jako je potvrzení objednávky, příprava a postup doručení. |
+| Správa uživatelského profilu | Umožňuje uživatelům zobrazit a aktualizovat informace v jejich uživatelském profilu, včetně jména, kontaktních údajů, doručovacích adres a platebních preferencí. |
+| Historie objednávek     | Poskytuje sekci s historií, kde uživatelé mohou zobrazit své předchozí objednávky, včetně detailů, jako jsou položky objednávky, celková cena a informace o doručení/vyzvednutí. |
+| Hodnocení a recenze     | Umožňuje uživatelům hodnotit a recenzovat restaurace nebo konkrétní jídla, poskytující zpětnou vazbu a doporučení ostatním uživatelům. |
+| Notifikace              | Odesílá uživatelům oznámení týkající se aktualizací objednávek, akcí, slev nebo speciálních nabídek. |
+| Lokalizace jazyka       | Poskytuje možnost přepínání mezi různými jazyky, aby se uspokojily uživatele z různých regionů. |
+| Pomoc a podpora         | Nabízí sekci s podporou nebo kontaktními informacemi, kde uživatelé mohou vyhledat pomoc nebo nahlásit problémy týkající se objednávek, plateb nebo používání aplikace. |
+
 
 
 | DOMÉNOVÝ MODEL | |
