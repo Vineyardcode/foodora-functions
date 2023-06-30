@@ -1,6 +1,7 @@
 | FRONTEND | |
 |---|---|
 
+| | |
 |---|---|
 | Registrace uživatele    | |
 | Přihlášení uživatele    | |
